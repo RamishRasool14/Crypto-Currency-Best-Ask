@@ -1,4 +1,6 @@
-# crypto-best-ask api
+# Crypto-Best-Ask Api
+
+This api gets you the best ask price across 3 exchanges (Binance, Coinbase & FTX) for the amount of cryto that you want to sell. After successful setting up locally you can query api using endpoint ```http://localhost:{port}/exchange-routing?amount={amount}``` where your server is running on port and amount is the crypto amount BTC that you want to sell.
 
 ## Setting Up
 1. Run ```pip install virtualenv``` in terminal if you do not have virtual env already installed. Assuming you already have pip and python setted up.
